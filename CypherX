@@ -1,0 +1,18 @@
+{
+  "name": "CypherX-WhatsApp-Bot",
+  "description": "A simple WhatsApp bot using Node.js",
+  "repository": "https://github.com/sage576/CypherX",
+  "keywords": ["node", "whatsapp", "bot", "cypherx"],
+  "env": {
+    "SESSION_ID": {
+      "description": "WhatsApp session string",
+      "required": true
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
